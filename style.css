@@ -1,0 +1,54 @@
+body {
+  background: lightgray;
+  margin: 0;
+}
+
+h1 {
+  background-color:lightseagreen;
+  font-size: 72px;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  margin: 0;
+  padding: 30px;
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Oxygen', sans-serif;
+  margin: 30px;
+  padding: 20px;
+}
+
+img {
+ margin: 30px;
+ padding: 20px; 
+}
+
+button {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  margin: 30px auto;
+  padding: 15px;
+  background-color:lightseagreen;
+  border: none;
+  border-radius: 7px;
+}
+
+button:hover {
+  background-color: white;
+  color: lightseagreen;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.column {
+  display: flex;
+}
